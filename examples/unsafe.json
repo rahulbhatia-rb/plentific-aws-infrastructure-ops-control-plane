@@ -1,0 +1,10 @@
+{
+  "aws": {},
+  "linux": {},
+  "terraform": {},
+  "ansible": {},
+  "incident": {},
+  "recovery": {},
+  "observability": {},
+  "security": {}
+}
