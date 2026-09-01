@@ -1,0 +1,10 @@
+{
+  "aws": {"ec2_health":"verified","eks_health":"verified","alb_target_health":"verified","vpc_checks":"verified","rds_backup":"verified","s3_recovery":"verified","route53_health":"verified","iam_least_privilege":"verified","cloudwatch_owner":"verified"},
+  "linux": {"disk_pressure":"verified","memory_pressure":"verified","service_state":"verified","patch_cadence":"verified","log_growth":"verified","cpu_load":"verified","recovery_procedure":"verified","time_sync":"verified"},
+  "terraform": {"remote_state":"verified","locking":"verified","plan_before_apply":"verified","drift_detection":"verified","failed_apply_recovery":"verified","import_procedure":"verified","state_recovery":"verified","env_isolation":"verified","peer_review":"verified"},
+  "ansible": {"idempotent_roles":"verified","inventory_owner":"verified","check_mode":"verified","failure_handling":"verified","rollback_path":"verified","no_plaintext_secrets":"verified","reusable_roles":"verified"},
+  "incident": {"severity_model":"verified","incident_commander":"verified","customer_impact":"verified","recent_change_check":"verified","mitigation_owner":"verified","evidence_preservation":"verified","communication_cadence":"verified","rca_owner":"verified","permanent_corrective_action":"verified","recurrence_prevention":"verified"},
+  "recovery": {"rds_restore_test":"verified","snapshot_owner":"verified","s3_recovery_procedure":"verified","restore_verification":"verified","rto_rpo":"verified","recovery_decision_tree":"verified"},
+  "observability": {"cloudwatch_alarms":"verified","actionable_thresholds":"verified","logs":"verified","infra_metrics":"verified","dependency_health":"verified","deployment_markers":"verified","recurring_failure_detection":"verified"},
+  "security": {"iam_access_review":"verified","asset_inventory":"verified","patching":"verified","audit_evidence":"verified","incident_support":"verified","secrets_handling":"verified"}
+}
