@@ -1,0 +1,15 @@
+---
+- name: Operational Linux validation
+  hosts: all
+  become: true
+  tasks:
+    - name: Check disk usage
+      ansible.builtin.command: df -h
+      changed_when: false
+    - name: Check failed systemd units
+      ansible.builtin.command: systemctl --failed --no-legend
+      changed_when: false
+      failed_when: false
+    - name: Check memory
+      ansible.builtin.command: free -m
+      changed_when: false
